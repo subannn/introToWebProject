@@ -1,0 +1,38 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.form-SignUp-SignIn {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto; /* Центр по горизонтали */
+    text-align: center;
+}
+
+.form-SignUp-SignIn input{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px auto;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.form-SignUp-SignIn button{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 220px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.form-SignUp-SignIn button:active {
+  transform: scale(0.97); /* немного сжимается */
+  background-color: #e0e0e0	; /* чуть темнее при нажатии */
+}
